@@ -56,6 +56,8 @@ function App() {
     fetchPokemon();
   }, [chosen]);
 
+  
+
   //get the type of pokemon to display information
   useEffect(() => {
     switch (typePokemon) {
